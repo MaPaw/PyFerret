@@ -92,7 +92,7 @@ C
 
 	   CALL  DATE_AND_TIME(adate, atime, zone, ival)
 	   WRITE (label, 101) ival(5), ival(6), ival(7)
-  101	   FORMAT (I2.2, ':', I2.2 ':', I2.2)
+  101	   FORMAT (I2.2, ':', I2.2, ':', I2.2)
            NC = 8
 
 	ELSE IF(STR.EQ.'DATE')THEN
